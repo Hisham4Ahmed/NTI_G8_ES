@@ -1,0 +1,46 @@
+Day1:
+    1- Introduction of PL 
+        1- System Component (Processor & Memory & IO Pherpheral)
+        2- PL Concept and Classification 
+    2- Introduction of C 
+        1- History & Versions 
+        2- C_ Specis and Advantages 
+        3- Happy Hacking Program 
+    3- Introduction Of Tool Chain 
+        1- Concept Of Tool Chain 
+        2- C Tool Chain type 
+        3- C Tool Chain Part (Preprocceor / Compiler / Assembler / Linker )
+        4- GNU (GCC) 
+        5- How Build and run By Gcc 
+            1- Build : gcc <FileName.c>    -o <OutFileName.exe>
+            2- Run   : <OutFileName.exe>
+    4- Variables & Modifiers 
+        1- In Deep of Memory
+        2- Concept Of Variables & Creation Type (Definition & Declartion)
+        3- Peermtive DataType (char / int / floar / double / void )
+        4- Naming Rule 
+        5- Scope 
+            1- Scope Concept 
+            2- Block Scope 
+            3- Local & Global 
+        6- Life time 
+        7- Modifiers
+            1- signed 
+            2- unsigned 
+            3- short 
+            4- long 
+            5- long long 
+            6- static 
+            7- extern 
+            8- register 
+            9- volatile 
+    5- Output & Input & Basic Operation 
+        1- printf 
+        2- scanf 
+        3- format specifiers (%d %i )
+        4- uni Operation
+            1- Increament (pre / post)
+            2- Decreament (pre / post)
+        5- mathmatical Operation 
+            1- (+ - * / %)
+            2- Casting (implicit Casting / Explicit Casting)
