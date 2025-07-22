@@ -1,0 +1,11 @@
+Day3:
+    1- Revision Algortim 
+        1-Search
+            1- Linear (Concept / Example (No of Reapet)) 
+            2- Binary (Concept/ Example (Print the Mid Value index))
+        2-Sort
+            1- Concept
+            2- Bubble Sort (Concept / Coding / Example)
+            3- Swap way by third var 
+    2- Pointer 
+    3- Function 
