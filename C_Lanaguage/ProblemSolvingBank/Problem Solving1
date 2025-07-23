@@ -1,0 +1,15 @@
+Problem Solving: 
+    1-   C function to SWAP two variables. (4 ways)
+    2-   C function to SWAP two arrays. 
+    3-   C function to multiply two integer numbers (two way)
+    4-   C function returns the average of an array.
+    5-   C function to take 2 variables and return division and remainder 
+    6-   C function to sort an array in ascending order.
+    7-   C function to return the maximum number in array and the number of times this maximum number
+           was found in the array.
+    8-   C function to take an array and its size and return the member that is a prime number
+    9-   C function to reverse an array
+    10-  C function that takes x and y, then returns their summation and multiplication by 3 ways 
+    11   C function that returns the sum of the digits of an integer number. Example: 1234, the function
+           should return 1+2+3+4 = 10
+    12   C Function to compare between 2 arrays if they contain same elements or not.
