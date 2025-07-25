@@ -1,0 +1,16 @@
+Day5 : 
+    1- User Define 
+        1- Revision Struct 
+        2- Union 
+        3- Enum 
+        4- Some Example 
+    2- Dynmanic alloc
+        1- malloc 
+        2- calloc 
+        3- free 
+        4- realloc 
+    3- D.S
+        1- LinkedList 
+optional2-Stack 
+        3-Queue 
+        
