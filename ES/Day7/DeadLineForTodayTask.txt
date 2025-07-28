@@ -1,0 +1,20 @@
+Dead Line form Task 1 Into Task5
+29/7/2025 -> maxmuim  12 pm
+
+LedDriver Task 
+    // Source Connecation
+    void hLed_Init(LedGroup,LedPin);
+    void hLed_On(LedGroup,LedPin);
+    void hLed_Off(LedGroup,LedPin);
+ButtonDriver Task 
+    // Internal Pull Up 
+    void hButton_Init(ButtonGroup , ButtonPin);
+    uint_8 hButton_IsPressed(ButtonGroup , ButtonPin);
+SDD_Driver Task
+    // Command Cathod 
+    //a b c d e f g h
+    //0 1 2 3 4 5 6 7
+    void hSSD_Init(SSD_Group);
+    void hSSD_DisplayNumber(uint_8 Number , SSD_Group)
+
+Dead Line for Led & Button & SSD Tasks Next Friday at 10 pm 
