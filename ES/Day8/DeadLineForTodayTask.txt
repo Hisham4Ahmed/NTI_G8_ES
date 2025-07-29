@@ -1,0 +1,9 @@
+Task 1 
+    hLCD_SendNumber 
+    hLCD_StoreSpecialChar 
+    Friday 
+Task2 
+    Solve KPD Bug 
+    TOM 
+
+

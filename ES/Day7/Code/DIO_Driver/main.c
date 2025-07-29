@@ -12,6 +12,5 @@
 
 int main()
 {
-
 	mDIO_ChangeDirectionForPin(GroupA,Pin1,DIO_Input);
 }

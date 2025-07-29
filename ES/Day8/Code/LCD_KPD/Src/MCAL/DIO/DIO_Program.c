@@ -6,9 +6,10 @@
  */
 
 
-#include "DIO_Interface.h"
-#include "BitMath.h"
-#include "NTI_Atmega32Register.h"
+#include "../../../Inc/MCAL/DIO/DIO_Interface.h"
+#include "../../../Inc/BitMath.h"
+
+#include "../../../Inc/MCAL/NTI_Atmega32Register.h"
 
 void mDIO_ChangeDirectionForPin(uint8_t GroupName , uint8_t PinNumber , uint8_t DirectionState)
 {
@@ -111,15 +112,15 @@ uint8_t mDIO_ReadValueFromPin(uint8_t  GroupName, uint8_t PinNumber)
 
 void mDIO_ChangeDirectionforGroup(uint8_t GroupName , uint8_t DirecationValue)
 {
-	//Task 4
+	//Task 4 // DDR
 	if(DirecationValue>=0x00 && DirecationValue<=0xFF)
 	{
 		switch(GroupName)
 		{
-		case GroupA: PORTA_Reg=DirecationValue;break;
-		case GroupB: PORTB_Reg=DirecationValue;break;
-		case GroupC: PORTC_Reg=DirecationValue;break;
-		case GroupD: PORTD_Reg=DirecationValue;break;
+		case GroupA: DDRA_Reg=DirecationValue;break;
+		case GroupB: DDRB_Reg=DirecationValue;break;
+		case GroupC: DDRC_Reg=DirecationValue;break;
+		case GroupD: DDRD_Reg=DirecationValue;break;
 		default: // GroupName Not Vaild
 			break ;
 		}
