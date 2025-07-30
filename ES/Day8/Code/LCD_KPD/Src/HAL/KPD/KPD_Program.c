@@ -61,6 +61,7 @@ uint8_t hKPD_GetButton()
 				_delay_ms(100);// Solve Bug s
 				if(ButtonState==Pressed)
 				{
+					mDIO_WriteValueForPin(KPD_ColoumGroup[C],KPD_ColoumPin[C],DIO_High);
 					return KPDName[R][C];
 				}
 		}

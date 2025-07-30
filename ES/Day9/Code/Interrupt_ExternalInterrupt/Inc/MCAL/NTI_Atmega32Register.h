@@ -10,6 +10,16 @@
 #include <stdint.h>
 
 #define SREG_Reg 					*((volatile uint8_t *)0x5F)
+/*EXTI*/
+#define MCUCR_Reg 	*((volatile uint8_t *)0x55)
+#define MCUCSR_Reg 	*((volatile uint8_t *)0x54)
+#define GICR_Reg 	*((volatile uint8_t *)0x5B)
+#define GIFR_Reg 	*((volatile uint8_t *)0x5A)
+
+
+
+
+
 
 /*Direction DIO*/
 #define DDRA_Reg *((volatile uint8_t*)0x3A)
@@ -38,10 +48,7 @@
 //#define _Reg 						*((volatile uint8_t *)0x)
 //#define _Reg 						*((volatile uint8_t *)0x)
 //#define _Reg 						*((volatile uint8_t *)0x)
-//#define _Reg *((volatile uint8_t *)0x)
-//#define _Reg *((volatile uint8_t *)0x)
-//#define _Reg *((volatile uint8_t *)0x)
-//#define _Reg *((volatile uint8_t *)0x)
+
 //#define _Reg *((volatile uint8_t *)0x)
 //#define OSCCAL_Reg *((volatile uint8_t *)0x51)
 //#define OCDR_Reg *((volatile uint8_t *)0x51)

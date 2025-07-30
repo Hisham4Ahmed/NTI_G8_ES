@@ -8,7 +8,22 @@
 #ifndef INC_MCAL_EXTI_EXTI_INTERFACE_H_
 #define INC_MCAL_EXTI_EXTI_INTERFACE_H_
 
+/*EXTI_Private.h*/
+#define EXTI_LowLevel    0
+#define EXTI_AnyChange   1
+#define EXTI_Falling     2
+#define EXTI_Rising      3
+/*EXTI_Private.h -> Name OF SIE For Specific EXTI */
+#define EXTI_ISC00       0
+#define EXTI_ISC01       1
+#define EXTI_ISC10       2
+#define EXTI_ISC11       3
 
+#define EXTI_ISC2         6
+
+#define EXTI_INT1        7
+#define EXTI_INT0        6
+#define EXTI_INT2        5
 /**
  * SensControl:
  * 	LowLevel  = 0
@@ -35,12 +50,41 @@
  * 	 */
 void mEXTI0_Enable(uint8_t SensControl);
 void mEXTI1_Enable(uint8_t SensControl);
+/**
+ * SensControl:
+ * 	1- Falling  = 2
+ * 	2- Rising   = 3
+ * 	Sudo Code for mEXTI0_Enable (uint8_t SensControl)
+ * 	{
+ * 		1- Check on SensControl
+ * 			if SensControl == 2
+ * 				Bit 6 in MCUCSR Register must be 0
+ * 			if SensControl == 3
+ * 				Bit 6 in MCUCSR Register must be 1
+ * 		2- Enable the SIE For EXTI2
+ * 			Bit 5 in GICR Resister  must be One
+ * 	}
+ */
 void mEXTI2_Enable(uint8_t SensControl);
-void
 //ISR
 void __vector_1(void) __attribute__((signal)); // ISR For EXTI0 ;
 void __vector_2(void) __attribute__((signal)); // ISR For EXTI1 ;
-void __vector_3(void) __attribute__((signal)); // ISR For EXTI2 ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #endif /* INC_MCAL_EXTI_EXTI_INTERFACE_H_ */
