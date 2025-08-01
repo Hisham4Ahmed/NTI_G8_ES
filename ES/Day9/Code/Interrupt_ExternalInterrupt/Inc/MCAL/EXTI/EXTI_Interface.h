@@ -49,6 +49,7 @@
  * 	 }
  * 	 */
 void mEXTI0_Enable(uint8_t SensControl);
+
 void mEXTI1_Enable(uint8_t SensControl);
 /**
  * SensControl:
