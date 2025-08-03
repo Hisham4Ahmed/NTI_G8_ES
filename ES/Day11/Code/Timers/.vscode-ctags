@@ -1,0 +1,219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/hesham/Desktop/EmbeddedSystem/NTI_G8_ES/ES/Day11/Code/Timers/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(BUILD_DIR)/%.o	Makefile	/^$(BUILD_DIR)\/%.o: %.c$/;"	t
+$(ELF)	Makefile	/^$(ELF): $(OBJS)$/;"	t
+$(HEX)	Makefile	/^$(HEX): $(ELF)$/;"	t
+ADATE_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADATE_Bit /;"	d
+ADCData_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define ADCData_Reg /;"	d
+ADCSRA_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define ADCSRA_Reg /;"	d
+ADEN_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADEN_Bit /;"	d
+ADIE_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADIE_Bit /;"	d
+ADIF_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADIF_Bit /;"	d
+ADLAR_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADLAR_Bit /;"	d
+ADMUX_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define ADMUX_Reg /;"	d
+ADPS0_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADPS0_Bit /;"	d
+ADPS1_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADPS1_Bit /;"	d
+ADPS2_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADPS2_Bit /;"	d
+ADSC_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define ADSC_Bit /;"	d
+ASM_DEPS	Debug/sources.mk	/^ASM_DEPS := $/;"	m
+ASM_SRCS	Debug/sources.mk	/^ASM_SRCS := $/;"	m
+AVRDUDE	Makefile	/^AVRDUDE = avrdude$/;"	m
+BITMATH_H_	Inc/Common/BitMath.h	/^#define BITMATH_H_$/;"	d
+BUILD_ARTIFACT	Debug/makefile	/^BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION)/;"	m
+BUILD_ARTIFACT_EXTENSION	Debug/makefile	/^BUILD_ARTIFACT_EXTENSION := elf$/;"	m
+BUILD_ARTIFACT_NAME	Debug/makefile	/^BUILD_ARTIFACT_NAME := Timers$/;"	m
+BUILD_ARTIFACT_PREFIX	Debug/makefile	/^BUILD_ARTIFACT_PREFIX :=$/;"	m
+BUILD_DIR	Makefile	/^BUILD_DIR = build$/;"	m
+CC	Makefile	/^CC = avr-gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Os -DF_CPU=$(F_CPU) -mmcu=$(MCU)$/;"	m
+COM00_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define COM00_Bit /;"	d
+COM01_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define COM01_Bit /;"	d
+CS00_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define CS00_Bit /;"	d
+CS01_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define CS01_Bit /;"	d
+CS02_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define CS02_Bit /;"	d
+C_DEPS	Debug/sources.mk	/^C_DEPS := $/;"	m
+C_SRCS	Debug/sources.mk	/^C_SRCS := $/;"	m
+ClearBit	Inc/Common/BitMath.h	/^#define ClearBit(/;"	d
+DDRA_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define DDRA_Reg /;"	d
+DDRB_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define DDRB_Reg /;"	d
+DDRC_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define DDRC_Reg /;"	d
+DDRD_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define DDRD_Reg /;"	d
+DIO_High	Inc/MCAL/DIO/DIO_Interface.h	/^#define DIO_High /;"	d
+DIO_INTERFACE_H_	Inc/MCAL/DIO/DIO_Interface.h	/^#define DIO_INTERFACE_H_$/;"	d
+DIO_Input	Inc/MCAL/DIO/DIO_Interface.h	/^#define DIO_Input /;"	d
+DIO_Low	Inc/MCAL/DIO/DIO_Interface.h	/^#define DIO_Low /;"	d
+DIO_Output	Inc/MCAL/DIO/DIO_Interface.h	/^#define DIO_Output /;"	d
+ELF	Makefile	/^ELF = $(BUILD_DIR)\/$(TARGET).elf$/;"	m
+ELFS	Debug/sources.mk	/^ELFS := $/;"	m
+EXTI_AnyChange	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_AnyChange /;"	d
+EXTI_Falling	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_Falling /;"	d
+EXTI_INT0	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_INT0 /;"	d
+EXTI_INT1	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_INT1 /;"	d
+EXTI_INT2	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_INT2 /;"	d
+EXTI_ISC00	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_ISC00 /;"	d
+EXTI_ISC01	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_ISC01 /;"	d
+EXTI_ISC10	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_ISC10 /;"	d
+EXTI_ISC11	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_ISC11 /;"	d
+EXTI_ISC2	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_ISC2 /;"	d
+EXTI_LowLevel	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_LowLevel /;"	d
+EXTI_Rising	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define EXTI_Rising /;"	d
+FLASH_IMAGE	Debug/sources.mk	/^FLASH_IMAGE := $/;"	m
+F_CPU	Makefile	/^F_CPU ?= 16000000UL$/;"	m
+FirstLine	Src/HAL/LCD/LCD_Program.c	/^#define FirstLine /;"	d	file:
+FirstLineAddress	Src/HAL/LCD/LCD_Program.c	/^#define FirstLineAddress /;"	d	file:
+GICR_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define GICR_Reg /;"	d
+GIE_Bit	Inc/MCAL/GIE/GIE_Interface.h	/^#define GIE_Bit /;"	d
+GIFR_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define GIFR_Reg /;"	d
+GetBit	Inc/Common/BitMath.h	/^#define GetBit(/;"	d
+GroupA	Inc/MCAL/DIO/DIO_Interface.h	/^#define GroupA /;"	d
+GroupB	Inc/MCAL/DIO/DIO_Interface.h	/^#define GroupB /;"	d
+GroupC	Inc/MCAL/DIO/DIO_Interface.h	/^#define GroupC /;"	d
+GroupD	Inc/MCAL/DIO/DIO_Interface.h	/^#define GroupD /;"	d
+HEX	Makefile	/^HEX = $(BUILD_DIR)\/$(TARGET).hex$/;"	m
+INC_HAL_LCD_LCD_INTERFACE_H_	Inc/HAL/LCD/LCD_Interface.h	/^#define INC_HAL_LCD_LCD_INTERFACE_H_$/;"	d
+INC_MCAL_ADC_ADC_INTERFACE_H_	Inc/MCAL/ADC/ADC_Interface.h	/^#define INC_MCAL_ADC_ADC_INTERFACE_H_$/;"	d
+INC_MCAL_ADC_ADC_PRIVATE_H_	Inc/MCAL/ADC/ADC_Private.h	/^#define INC_MCAL_ADC_ADC_PRIVATE_H_$/;"	d
+INC_MCAL_EXTI_EXTI_INTERFACE_H_	Inc/MCAL/EXTI/EXTI_Interface.h	/^#define INC_MCAL_EXTI_EXTI_INTERFACE_H_$/;"	d
+INC_MCAL_GIE_GIE_INTERFACE_H_	Inc/MCAL/GIE/GIE_Interface.h	/^#define INC_MCAL_GIE_GIE_INTERFACE_H_$/;"	d
+INC_MCAL_TIMER0_TIMER0_INTERFACE_H_	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define INC_MCAL_TIMER0_TIMER0_INTERFACE_H_$/;"	d
+INC_MCAL_TIMER0_TIMER0_PRIVATE_H_	Inc/MCAL/Timer0/Timer0_Private.h	/^#define INC_MCAL_TIMER0_TIMER0_PRIVATE_H_$/;"	d
+LCD_DataGroup	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_DataGroup /;"	d
+LCD_EGroup	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_EGroup /;"	d
+LCD_EPin	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_EPin /;"	d
+LCD_RSGroup	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_RSGroup /;"	d
+LCD_RSPin	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_RSPin /;"	d
+LCD_RWGroup	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_RWGroup /;"	d
+LCD_RWPin	Inc/HAL/LCD/LCD_Interface.h	/^#define LCD_RWPin /;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -mmcu=$(MCU)$/;"	m
+LIBS	Debug/objects.mk	/^LIBS :=$/;"	m
+LSS	Debug/sources.mk	/^LSS := $/;"	m
+MCU	Makefile	/^MCU ?= atmega328p$/;"	m
+MCUCR_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define MCUCR_Reg /;"	d
+MCUCSR_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define MCUCSR_Reg /;"	d
+Mux0_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define Mux0_Bit /;"	d
+Mux1_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define Mux1_Bit /;"	d
+Mux2_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define Mux2_Bit /;"	d
+Mux3_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define Mux3_Bit /;"	d
+Mux4_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define Mux4_Bit /;"	d
+NTI_ATMEGA32REGISTER_H_	Inc/MCAL/NTI_Atmega32Register.h	/^#define NTI_ATMEGA32REGISTER_H_$/;"	d
+NULL	Inc/Common/BitMath.h	/^#define NULL /;"	d
+NULLChar	Inc/Common/BitMath.h	/^#define NULLChar /;"	d
+OBJCOPY	Makefile	/^OBJCOPY = avr-objcopy$/;"	m
+OBJS	Debug/sources.mk	/^OBJS := $/;"	m
+OBJS	Makefile	/^OBJS := $(patsubst .\/%.c,$(BUILD_DIR)\/%.o,$(SRCS))$/;"	m
+OBJ_SRCS	Debug/sources.mk	/^OBJ_SRCS := $/;"	m
+OCF0_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define OCF0_Bit /;"	d
+OCIE0_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define OCIE0_Bit /;"	d
+OCR0_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define OCR0_Reg /;"	d
+OPTIONAL_TOOL_DEPS	Debug/makefile	/^OPTIONAL_TOOL_DEPS := \\$/;"	m
+O_SRCS	Debug/sources.mk	/^O_SRCS := $/;"	m
+PINA_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PINA_Reg /;"	d
+PINB_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PINB_Reg /;"	d
+PINC_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PINC_Reg /;"	d
+PIND_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PIND_Reg /;"	d
+PORTA_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PORTA_Reg /;"	d
+PORTB_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PORTB_Reg /;"	d
+PORTC_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PORTC_Reg /;"	d
+PORTD_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define PORTD_Reg /;"	d
+Pin0	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin0 /;"	d
+Pin1	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin1 /;"	d
+Pin2	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin2 /;"	d
+Pin3	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin3 /;"	d
+Pin4	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin4 /;"	d
+Pin5	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin5 /;"	d
+Pin6	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin6 /;"	d
+Pin7	Inc/MCAL/DIO/DIO_Interface.h	/^#define Pin7 /;"	d
+REFS0_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define REFS0_Bit /;"	d
+REFS1_Bit	Inc/MCAL/ADC/ADC_Private.h	/^#define REFS1_Bit /;"	d
+RM	Debug/makefile	/^RM := rm -rf$/;"	m
+SFIOR_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define SFIOR_Reg /;"	d
+SIZEDUMMY	Debug/sources.mk	/^SIZEDUMMY := $/;"	m
+SRCS	Makefile	/^SRCS := $(shell find . -type f -name "*.c")$/;"	m
+SREG_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define SREG_Reg /;"	d
+SUBDIRS	Debug/sources.mk	/^SUBDIRS := \\$/;"	m
+S_DEPS	Debug/sources.mk	/^S_DEPS := $/;"	m
+S_SRCS	Debug/sources.mk	/^S_SRCS := $/;"	m
+S_UPPER_DEPS	Debug/sources.mk	/^S_UPPER_DEPS := $/;"	m
+S_UPPER_SRCS	Debug/sources.mk	/^S_UPPER_SRCS := $/;"	m
+SecondeLine	Src/HAL/LCD/LCD_Program.c	/^#define SecondeLine /;"	d	file:
+SecondeLineAddress	Src/HAL/LCD/LCD_Program.c	/^#define SecondeLineAddress /;"	d	file:
+SetBit	Inc/Common/BitMath.h	/^#define SetBit(/;"	d
+SetDDRAMCommand	Src/HAL/LCD/LCD_Program.c	/^#define SetDDRAMCommand /;"	d	file:
+Src/%.o	Debug/Src/subdir.mk	/^Src\/%.o: ..\/Src\/%.c Src\/subdir.mk$/;"	t
+Src/HAL/LCD/%.o	Debug/Src/HAL/LCD/subdir.mk	/^Src\/HAL\/LCD\/%.o: ..\/Src\/HAL\/LCD\/%.c Src\/HAL\/LCD\/subdir.mk$/;"	t
+Src/MCAL/ADC/%.o	Debug/Src/MCAL/ADC/subdir.mk	/^Src\/MCAL\/ADC\/%.o: ..\/Src\/MCAL\/ADC\/%.c Src\/MCAL\/ADC\/subdir.mk$/;"	t
+Src/MCAL/DIO/%.o	Debug/Src/MCAL/DIO/subdir.mk	/^Src\/MCAL\/DIO\/%.o: ..\/Src\/MCAL\/DIO\/%.c Src\/MCAL\/DIO\/subdir.mk$/;"	t
+Src/MCAL/EXTI/%.o	Debug/Src/MCAL/EXTI/subdir.mk	/^Src\/MCAL\/EXTI\/%.o: ..\/Src\/MCAL\/EXTI\/%.c Src\/MCAL\/EXTI\/subdir.mk$/;"	t
+Src/MCAL/GIE/%.o	Debug/Src/MCAL/GIE/subdir.mk	/^Src\/MCAL\/GIE\/%.o: ..\/Src\/MCAL\/GIE\/%.c Src\/MCAL\/GIE\/subdir.mk$/;"	t
+Src/MCAL/Timer0/%.o	Debug/Src/MCAL/Timer0/subdir.mk	/^Src\/MCAL\/Timer0\/%.o: ..\/Src\/MCAL\/Timer0\/%.c Src\/MCAL\/Timer0\/subdir.mk$/;"	t
+TARGET	Makefile	/^TARGET = app$/;"	m
+TCCR0_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define TCCR0_Reg /;"	d
+TCNT0_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define TCNT0_Reg	/;"	d
+TIFR_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define TIFR_Reg	/;"	d
+TIMSK_Reg	Inc/MCAL/NTI_Atmega32Register.h	/^#define TIMSK_Reg /;"	d
+TOIE0_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define TOIE0_Bit /;"	d
+TOV0_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define TOV0_Bit /;"	d
+Timer0Disabled	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0Disabled /;"	d
+Timer0ExternalCLK_Falling	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0ExternalCLK_Falling	/;"	d
+Timer0ExternalCLK_Rising	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0ExternalCLK_Rising /;"	d
+Timer0Prescaller_1	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0Prescaller_1 /;"	d
+Timer0Prescaller_1024	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0Prescaller_1024 /;"	d
+Timer0Prescaller_256	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0Prescaller_256 /;"	d
+Timer0Prescaller_64	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0Prescaller_64 /;"	d
+Timer0Prescaller_8	Inc/MCAL/Timer0/Timer0_Private.h	/^#define Timer0Prescaller_8 /;"	d
+Timer0_CompareValue	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define Timer0_CompareValue /;"	d
+Timer0_NoOFCompateMatchCount	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define Timer0_NoOFCompateMatchCount /;"	d
+Timer0_NoOfOverFlowCount	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define Timer0_NoOfOverFlowCount /;"	d
+Timer0_PreLoadValue	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define Timer0_PreLoadValue /;"	d
+Timer0_Prescaller	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define Timer0_Prescaller /;"	d
+Timer0_Type	Inc/MCAL/Timer0/Timer0_Interface.h	/^#define Timer0_Type /;"	d
+Timers.elf	Debug/makefile	/^Timers.elf: $(OBJS) $(USER_OBJS) makefile objects.mk $(OPTIONAL_TOOL_DEPS)$/;"	t
+Timers.hex	Debug/makefile	/^Timers.hex: Timers.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)$/;"	t
+Timers.lss	Debug/makefile	/^Timers.lss: Timers.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)$/;"	t
+USER_OBJS	Debug/objects.mk	/^USER_OBJS :=$/;"	m
+WGM00_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define WGM00_Bit /;"	d
+WGM01_Bit	Inc/MCAL/Timer0/Timer0_Private.h	/^#define WGM01_Bit /;"	d
+__vector_10	Src/MCAL/Timer0/Timer0_Program.c	/^void __vector_10(void)$/;"	f	typeref:typename:void
+__vector_11	Src/MCAL/Timer0/Timer0_Program.c	/^void __vector_11(void)$/;"	f	typeref:typename:void
+aLed_Action1	Src/main.c	/^void aLed_Action1()$/;"	f	typeref:typename:void
+all	Debug/makefile	/^all: main-build$/;"	t
+all	Makefile	/^all: build$/;"	t
+build	Makefile	/^build: $(HEX)$/;"	t
+clean	Debug/makefile	/^clean:$/;"	t
+clean	Makefile	/^clean:$/;"	t
+flash	Makefile	/^flash: $(HEX)$/;"	t
+hLCD_Init	Src/HAL/LCD/LCD_Program.c	/^void hLCD_Init()$/;"	f	typeref:typename:void
+hLCD_MoveCursor	Src/HAL/LCD/LCD_Program.c	/^void hLCD_MoveCursor(uint8_t Line ,uint8_t Digit)$/;"	f	typeref:typename:void
+hLCD_SendChar	Src/HAL/LCD/LCD_Program.c	/^void hLCD_SendChar(uint8_t Character)$/;"	f	typeref:typename:void
+hLCD_SendCommand	Src/HAL/LCD/LCD_Program.c	/^void hLCD_SendCommand(uint8_t Command)$/;"	f	typeref:typename:void
+hLCD_SendString	Src/HAL/LCD/LCD_Program.c	/^void hLCD_SendString(uint8_t Str[])$/;"	f	typeref:typename:void
+mADC_Init	Src/MCAL/ADC/ADC_Program.c	/^void mADC_Init()$/;"	f	typeref:typename:void
+mADC_SignleEndedConversion	Src/MCAL/ADC/ADC_Program.c	/^uint16_t mADC_SignleEndedConversion(uint8_t Channel)\/\/ 0 - 7 (00000111)$/;"	f	typeref:typename:uint16_t
+mDIO_ChangeDirectionForPin	Src/MCAL/DIO/DIO_Program.c	/^void mDIO_ChangeDirectionForPin(uint8_t GroupName , uint8_t PinNumber , uint8_t DirectionState)$/;"	f	typeref:typename:void
+mDIO_ChangeDirectionforGroup	Src/MCAL/DIO/DIO_Program.c	/^void mDIO_ChangeDirectionforGroup(uint8_t GroupName , uint8_t DirecationValue)$/;"	f	typeref:typename:void
+mDIO_ReadValueFromGroup	Src/MCAL/DIO/DIO_Program.c	/^uint8_t mDIO_ReadValueFromGroup(uint8_t  GroupName)$/;"	f	typeref:typename:uint8_t
+mDIO_ReadValueFromPin	Src/MCAL/DIO/DIO_Program.c	/^uint8_t mDIO_ReadValueFromPin(uint8_t  GroupName, uint8_t PinNumber)$/;"	f	typeref:typename:uint8_t
+mDIO_WriteValueForGroup	Src/MCAL/DIO/DIO_Program.c	/^void mDIO_WriteValueForGroup(uint8_t GroupName ,  uint8_t OutputValue)$/;"	f	typeref:typename:void
+mDIO_WriteValueForPin	Src/MCAL/DIO/DIO_Program.c	/^void mDIO_WriteValueForPin(uint8_t GroupName ,  uint8_t PinNumber , uint8_t OutputType)$/;"	f	typeref:typename:void
+mEXTI0_Enable	Src/MCAL/EXTI/EXTI_Program.c	/^void mEXTI0_Enable(uint8_t SensControl)$/;"	f	typeref:typename:void
+mEXTI1_Enable	Src/MCAL/EXTI/EXTI_Program.c	/^void mEXTI1_Enable(uint8_t SensControl)$/;"	f	typeref:typename:void
+mEXTI2_Enable	Src/MCAL/EXTI/EXTI_Program.c	/^void mEXTI2_Enable(uint8_t SensControl)$/;"	f	typeref:typename:void
+mGIE_Disable	Src/MCAL/GIE/GIE_Program.c	/^void mGIE_Disable()$/;"	f	typeref:typename:void
+mGIE_Enable	Src/MCAL/GIE/GIE_Program.c	/^void mGIE_Enable()$/;"	f	typeref:typename:void
+mTimer0_InitCTCMode	Src/MCAL/Timer0/Timer0_Program.c	/^void mTimer0_InitCTCMode()$/;"	f	typeref:typename:void
+mTimer0_InitFastPWMMode	Src/MCAL/Timer0/Timer0_Program.c	/^void mTimer0_InitFastPWMMode()$/;"	f	typeref:typename:void
+mTimer0_InitNormalMode	Src/MCAL/Timer0/Timer0_Program.c	/^void mTimer0_InitNormalMode()$/;"	f	typeref:typename:void
+main	Src/main.c	/^int main()$/;"	f	typeref:typename:int
+main-build	Debug/makefile	/^main-build: Timers.elf secondary-outputs$/;"	t
+run	Makefile	/^run: $(HEX)$/;"	t
+secondary-outputs	Debug/makefile	/^secondary-outputs: $(LSS) $(FLASH_IMAGE) $(SIZEDUMMY)$/;"	t
+sizedummy	Debug/makefile	/^sizedummy: Timers.elf makefile objects.mk $(OPTIONAL_TOOL_DEPS)$/;"	t
