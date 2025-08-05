@@ -1,0 +1,69 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Hd44780" CircId="Hd44780-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-172,-288" rotation="0" hflip="1" vflip="1" label="Hd44780-3" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Rows" Cols="16 _Columns" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-160" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="MCU" CircId="mega32-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-244,-252" rotation="0" hflip="1" vflip="1" label="MCU2" idLabPos="8.97517,-16.4099" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="Desktop/EmbeddedSystem/NTI_G8_ES/ES/Day13/Code/MCU2Recivier/build/MCU2Recivier.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="DDRA,PORTA,DDRC,PORTC,UDR,UCSRA,UCSRB,UCSRC,UBRRL" SerialMon="-1" />
+
+<item itemtype="Push" CircId="Push-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-196" rotation="0" hflip="1" vflip="1" label="Push-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" Key="G" />
+
+<item itemtype="Oscope" CircId="Oscope-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-512" rotation="0" hflip="1" vflip="1" label="Oscope-10" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" BufferSize="600000 Samples" InputAdmit="0.1 µ℧" TimDiv="57666901489" TimPos="0,0,0,0," VolDiv="8.18595,8.18595,8.18595,8.18595," Tunnels=",,,," Trigger="0" Filter="0.1 V" Trigger="0" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="-1.83925,-1.83925,-1.83925,-1.83925," />
+
+<item itemtype="Push" CircId="Push-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-244" rotation="0" hflip="1" vflip="1" label="Push-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" Key="A" />
+
+<item itemtype="MCU" CircId="mega32-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-604,-252" rotation="0" hflip="-1" vflip="1" label="MCU1" idLabPos="9.14577,-19.4284" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="Desktop/EmbeddedSystem/NTI_G8_ES/ES/Day13/Code/MCU1Sender/build/MCU1Sender.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="UCSRA,UCSRB,UCSRC,UBRRL,UDR,DDRA,PINA,PORTA" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-388,-212" rotation="-90" hflip="1" vflip="-1" label="Fixed Voltage-6" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Node" CircId="Node-8" mainComp="false" Pos="-780,-192" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="-384,-180" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-564,-140" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Hd44780-3-dataPin4" endpinid="mega32-2-PORTC4" pointList="-100,-280,-100,-132,-188,-132" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="Hd44780-3-dataPin6" endpinid="mega32-2-PORTC6" pointList="-84,-280,-84,-148,-188,-148" />
+
+<item itemtype="Connector" uid="Connector-25" startpinid="Node-11-1" endpinid="Oscope-10-Pin0" pointList="-564,-140,-564,-560,-416,-560" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="Push-5-pinP0" endpinid="Node-8-1" pointList="-724,-196,-780,-196,-780,-192" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="mega32-2-RST" endpinid="Node-9-0" pointList="-252,-180,-384,-180" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Push-4-pinP0" endpinid="Node-8-0" pointList="-724,-244,-780,-244,-780,-192" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="mega32-2-PORTC5" endpinid="Hd44780-3-dataPin5" pointList="-188,-140,-92,-140,-92,-280" />
+
+<item itemtype="Connector" uid="Connector-26" startpinid="mega32-1-PORTD1" endpinid="Node-11-0" pointList="-596,-132,-564,-132,-564,-140" />
+
+<item itemtype="Connector" uid="Connector-27" startpinid="Node-11-2" endpinid="mega32-2-PORTD0" pointList="-564,-140,-252,-140" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Hd44780-3-PinRW" endpinid="mega32-2-PORTA1" pointList="-148,-280,-148,-236,-188,-236" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Hd44780-3-dataPin0" endpinid="mega32-2-PORTC0" pointList="-132,-280,-132,-100,-188,-100" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="mega32-1-PORTA6" endpinid="Push-5-switch0pinN" pointList="-660,-196,-692,-196" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Node-9-2" endpinid="mega32-1-RST" pointList="-384,-180,-596,-180" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="mega32-1-PORTA0" endpinid="Push-4-switch0pinN" pointList="-660,-244,-692,-244" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="mega32-2-PORTC3" endpinid="Hd44780-3-dataPin3" pointList="-188,-124,-108,-124,-108,-280" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="mega32-2-PORTC7" endpinid="Hd44780-3-dataPin7" pointList="-188,-156,-76,-156,-76,-280" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Hd44780-3-dataPin2" endpinid="mega32-2-PORTC2" pointList="-116,-280,-116,-116,-188,-116" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="mega32-2-PORTA2" endpinid="Hd44780-3-PinEn" pointList="-188,-228,-140,-228,-140,-280" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Hd44780-3-PinRS" endpinid="mega32-2-PORTA0" pointList="-156,-280,-156,-244,-188,-244" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Fixed Voltage-6-outnod" endpinid="Node-9-1" pointList="-388,-196,-388,-180,-384,-180" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="mega32-2-PORTC1" endpinid="Hd44780-3-dataPin1" pointList="-188,-108,-124,-108,-124,-280" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Node-8-2" endpinid="Ground-7-Gnd" pointList="-780,-192,-780,-176" />
+
+</circuit>
