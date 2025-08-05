@@ -1,0 +1,38 @@
+/**
+ * @file Macros.h
+ * @author Hesham Ahmed (Hisham4Ahmed@gmail.com)
+ * @brief  This file contains macros for Common Definitions and Bit Manipulation.
+ * @version 0.1
+ * @date 2025-08-04
+ * 
+ * @copyright Copyright (c) 2025 , Gestell Company & NTI 
+ * 
+ */
+
+#ifndef _MACROS_H_
+#define _MACROS_H_
+
+#define SetBit(Reg,No)     Reg|=(1<<No)  // Reg= Reg|(1<<No)
+#define ClearBit(Reg,No)   Reg&=~(1<<No)
+#define GetBit(Reg,No)     ((Reg>>No)&1)
+#define ToggleBit(Reg,No)   Reg^=(1<<No)
+
+#define NULL    (void *)0
+#define NULLChar   '\0'
+
+#define Input     0
+#define Output    1
+
+#define Low       0
+#define High      1
+
+#ifdef InternalPull
+#define NotPressed 0
+#define Pressed    1 
+#endif
+
+
+#define SourceConnection    1
+#define SinkConnection      2
+
+#endif /* _MACROS_H_ */
