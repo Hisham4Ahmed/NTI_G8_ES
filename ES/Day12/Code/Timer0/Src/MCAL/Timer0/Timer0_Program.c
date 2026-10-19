@@ -40,7 +40,7 @@ void __vector_11(void)
 	if (Count==Timer0_NoOfOverFlowCount)
 	{
 		//Action
-		aLed_Action1();
+
 		//PreLoad Update
 		TCNT0_Reg = Timer0_PreLoadValue;
 		//Clear Count
@@ -90,7 +90,6 @@ void __vector_10(void)
 	if(Count==Timer0_NoOFCompateMatchCount)
 	{
 		//Action
-		aLed_Action1();
 		//Clear Counter
 		Count=0;
 	}

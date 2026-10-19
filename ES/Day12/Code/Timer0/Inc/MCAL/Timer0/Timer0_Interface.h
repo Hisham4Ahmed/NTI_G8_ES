@@ -28,6 +28,7 @@
 
 void mTimer0_InitFastPWMMode();
 void mTimer0_InitPasheCorrectPWMMode();
+void mTimer0_ChangeDutyCycle(uint8_t DutyCycle,uint8_t ActionType );
 
 void mTimer0_InitNormalMode();
 /*ISR For OverFlow */

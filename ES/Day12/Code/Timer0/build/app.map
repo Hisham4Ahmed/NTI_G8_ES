@@ -137,7 +137,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000      0x646
+.text           0x0000000000000000      0x634
  *(.vectors)
  .vectors       0x0000000000000000       0x54 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32.o
                 0x0000000000000000                __vectors
@@ -213,106 +213,105 @@ END GROUP
                 0x0000000000000078                __vector_16
                 0x0000000000000078                __vector_18
                 0x0000000000000078                __vector_20
- .text          0x000000000000007c        0x2 build/Src/main.o
-                0x000000000000007c                aLed_Action1
- .text          0x000000000000007e      0x13a build/Src/HAL/LCD/LCD_Program.o
-                0x000000000000007e                hLCD_SendCommand
-                0x00000000000000b4                hLCD_Init
-                0x0000000000000136                hLCD_SendChar
-                0x000000000000016c                hLCD_SendString
-                0x0000000000000196                hLCD_MoveCursor
- .text          0x00000000000001b8       0x20 build/Src/MCAL/EXTI/EXTI_Program.o
-                0x00000000000001b8                mEXTI0_Enable
-                0x00000000000001ba                mEXTI1_Enable
-                0x00000000000001bc                mEXTI2_Enable
- .text          0x00000000000001d8       0x2a build/Src/MCAL/ADC/ADC_Program.o
-                0x00000000000001d8                mADC_Init
-                0x00000000000001ec                mADC_SignleEndedConversion
- .text          0x0000000000000202      0x17e build/Src/MCAL/Timer0/Timer0_Program.o
-                0x0000000000000202                mTimer0_InitNormalMode
-                0x0000000000000226                __vector_11
-                0x00000000000002b2                mTimer0_InitCTCMode
-                0x00000000000002d6                __vector_10
-                0x000000000000035e                mTimer0_InitFastPWMMode
-                0x0000000000000368                mTimer0_ChangeDutyCycle
- .text          0x0000000000000380       0x10 build/Src/MCAL/GIE/GIE_Program.o
-                0x0000000000000380                mGIE_Enable
-                0x0000000000000388                mGIE_Disable
- .text          0x0000000000000390      0x25c build/Src/MCAL/DIO/DIO_Program.o
-                0x0000000000000390                mDIO_ChangeDirectionForPin
-                0x0000000000000468                mDIO_WriteValueForPin
-                0x0000000000000540                mDIO_ReadValueFromPin
-                0x000000000000057a                mDIO_ChangeDirectionforGroup
-                0x00000000000005a0                mDIO_WriteValueForGroup
-                0x00000000000005c6                mDIO_ReadValueFromGroup
- .text          0x00000000000005ec        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
- .text          0x00000000000005ec        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
- .text          0x00000000000005ec        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
- .text          0x00000000000005ec        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
-                0x00000000000005ec                . = ALIGN (0x2)
+ .text          0x000000000000007c        0x0 build/Src/main.o
+ .text          0x000000000000007c      0x13a build/Src/HAL/LCD/LCD_Program.o
+                0x000000000000007c                hLCD_SendCommand
+                0x00000000000000b2                hLCD_Init
+                0x0000000000000134                hLCD_SendChar
+                0x000000000000016a                hLCD_SendString
+                0x0000000000000194                hLCD_MoveCursor
+ .text          0x00000000000001b6       0x20 build/Src/MCAL/EXTI/EXTI_Program.o
+                0x00000000000001b6                mEXTI0_Enable
+                0x00000000000001b8                mEXTI1_Enable
+                0x00000000000001ba                mEXTI2_Enable
+ .text          0x00000000000001d6       0x2a build/Src/MCAL/ADC/ADC_Program.o
+                0x00000000000001d6                mADC_Init
+                0x00000000000001ea                mADC_SignleEndedConversion
+ .text          0x0000000000000200      0x142 build/Src/MCAL/Timer0/Timer0_Program.o
+                0x0000000000000200                mTimer0_InitNormalMode
+                0x0000000000000224                __vector_11
+                0x0000000000000290                mTimer0_InitCTCMode
+                0x00000000000002b4                __vector_10
+                0x0000000000000320                mTimer0_InitFastPWMMode
+                0x000000000000032a                mTimer0_ChangeDutyCycle
+ .text          0x0000000000000342       0x10 build/Src/MCAL/GIE/GIE_Program.o
+                0x0000000000000342                mGIE_Enable
+                0x000000000000034a                mGIE_Disable
+ .text          0x0000000000000352      0x25c build/Src/MCAL/DIO/DIO_Program.o
+                0x0000000000000352                mDIO_ChangeDirectionForPin
+                0x000000000000042a                mDIO_WriteValueForPin
+                0x0000000000000502                mDIO_ReadValueFromPin
+                0x000000000000053c                mDIO_ChangeDirectionforGroup
+                0x0000000000000562                mDIO_WriteValueForGroup
+                0x0000000000000588                mDIO_ReadValueFromGroup
+ .text          0x00000000000005ae        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x00000000000005ae        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text          0x00000000000005ae        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x00000000000005ae        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x00000000000005ae                . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x00000000000005ec        0x6 build/Src/main.o
-                0x00000000000005ec                main
+ .text.startup  0x00000000000005ae       0x32 build/Src/main.o
+                0x00000000000005ae                main
  .text.libgcc.mul
-                0x00000000000005f2        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x00000000000005e0        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
  .text.libgcc.div
-                0x00000000000005f2       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
-                0x00000000000005f2                __divmodhi4
-                0x00000000000005f2                _div
- .text.libgcc   0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x00000000000005e0       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x00000000000005e0                __divmodhi4
+                0x00000000000005e0                _div
+ .text.libgcc   0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
  .text.libgcc.prologue
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
  .text.libgcc.builtins
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
  .text.libgcc.fmul
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
  .text.libgcc.fixed
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_divmodhi4.o)
  .text.libgcc.mul
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.div
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
- .text.libgcc   0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
- .text.libgcc   0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_clear_bss.o)
  .text.libgcc.mul
-                0x000000000000061a        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000608        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
  .text.libgcc.div
-                0x000000000000061a       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
-                0x000000000000061a                __udivmodhi4
- .text.libgcc   0x0000000000000642        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000608       0x28 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000608                __udivmodhi4
+ .text.libgcc   0x0000000000000630        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
  .text.libgcc.prologue
-                0x0000000000000642        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000630        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
  .text.libgcc.builtins
-                0x0000000000000642        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000630        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
  .text.libgcc.fmul
-                0x0000000000000642        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000630        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
  .text.libgcc.fixed
-                0x0000000000000642        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
-                0x0000000000000642                . = ALIGN (0x2)
+                0x0000000000000630        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000000630                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000000642        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
-                0x0000000000000642                exit
-                0x0000000000000642                _exit
+ .fini9         0x0000000000000630        0x0 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+                0x0000000000000630                exit
+                0x0000000000000630                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -331,11 +330,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000000642        0x4 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
+ .fini0         0x0000000000000630        0x4 /usr/lib/gcc/avr/7.3.0/avr5/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000000646                _etext = .
+                0x0000000000000634                _etext = .
 
-.data           0x0000000000800060        0x0 load address 0x0000000000000646
+.data           0x0000000000800060        0x0 load address 0x0000000000000634
                 [!provide]                        PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000800060        0x0 /usr/lib/gcc/avr/7.3.0/../../../avr/lib/avr5/crtatmega32.o
@@ -377,8 +376,8 @@ END GROUP
  *(.bss*)
  *(COMMON)
                 0x0000000000800068                PROVIDE (__bss_end, .)
-                0x0000000000000646                __data_load_start = LOADADDR (.data)
-                0x0000000000000646                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000000634                __data_load_start = LOADADDR (.data)
+                0x0000000000000634                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0000000000800068        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)

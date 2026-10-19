@@ -44,12 +44,8 @@ typedef enum
  * 1- SS as Input 
  * 2- MSTR Bit Write Logic Zero 
  */
-typedef enum
-{
-    SlaveMode,
-    MasterMode
-}SPIModeOption_t;
-
+#define  SlaveMode  0 
+#define  MasterMode 1
 /**/
 typedef enum
 {

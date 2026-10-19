@@ -10,7 +10,7 @@ Build a basic smart environmental system to simulate monitoring ambient light an
 - Digital Output Control (LED, Fan)
 - LCD Display Interface
 - System Clock and Timing
-- GPIO Configuration
+- DIO Configuration
 - Software Layered Architecture (MCAL, HAL, APP)
 
 ### Components Used:
@@ -27,7 +27,7 @@ Build a basic smart environmental system to simulate monitoring ambient light an
 
 - LDR → ADC0 (PA0)
 - Thermistor → ADC1 (PA1)
-- LCD Data → PORTC (PC0–PC3), Control → PC4 (RS), PC5 (EN)
+- LCD Data → PORTC (PB0–PB7), Control → PC0 (RS), PC5 (EN)
 - Fan Control → PD0
 - Light LED → PD1
 - Mode Button → PD2
